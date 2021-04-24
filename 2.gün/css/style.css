@@ -1,0 +1,40 @@
+span {
+    margin-left: 50px;
+    border: 15px solid;
+    background-color: rgb(5, 122, 231)
+}
+
+p {
+    background-color: palegreen
+}
+
+.button {
+    border: 10px outset gray;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    /* tıklama hissi verir el işareti */
+}
+
+.button:hover {
+    color: aqua;
+}
+
+body {
+    background-color: blueviolet!important;
+    /* herzaman !important ın dediği olur  */
+    background-color: green
+}
+
+
+/* display:inline-block : genişlik vermek için inline blok olması lazım  İnline yan yana getiriyor block ta width i tanımasını sağlıyor
+ :*/
+
+p,
+div,
+span {
+    display: inline-block;
+    width: 250px;
+}
