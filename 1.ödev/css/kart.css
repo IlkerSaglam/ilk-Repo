@@ -11,23 +11,31 @@
     display: inline-block;
     font-size: 20px;
     width: 270px;
-    margin: 20px 10px 5px 30px;
-    text-align: left
+    margin: auto;
+    text-align: left;
 }
 
-.buton {
+.butonyazı {
     text-decoration: none;
-    box-shadow: 5px -2px 12px -2px #899599;
-    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
-    background-color: #ededed;
-    border-radius: 12px;
-    border: 1px solid #d6bcd6;
-    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #f9f8fa;
     cursor: pointer;
-    color: #3a8a9e;
+    color: #fafafa;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 21px;
-    padding: 9px 63px;
-    text-shadow: 0px 0px 0px #e1e2ed;
-    margin-left: 42px;
+    font-size: 14px;
+    margin: 1px 1px;
+    background-color: rgb(6, 6, 192);
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.icerik {
+    padding: 12px;
+}
+
+.butonyazı:hover {
+    background-color: red;
 }
