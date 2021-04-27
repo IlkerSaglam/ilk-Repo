@@ -1,0 +1,33 @@
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kapsayıcı {
+    border-radius: 10px;
+    border: solid rgb(234, 233, 241);
+    box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.24);
+    display: inline-block;
+    font-size: 20px;
+    width: 270px;
+    margin: 20px 10px 5px 30px;
+    text-align: left
+}
+
+.buton {
+    text-decoration: none;
+    box-shadow: 5px -2px 12px -2px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 12px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #3a8a9e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    padding: 9px 63px;
+    text-shadow: 0px 0px 0px #e1e2ed;
+    margin-left: 42px;
+}
