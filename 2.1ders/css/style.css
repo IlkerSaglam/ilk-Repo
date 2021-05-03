@@ -1,0 +1,88 @@
+* {
+    font-family: sans-serif;
+}
+
+.card {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 7px;
+    padding: 19px;
+    max-width: 200px;
+    position: relative;
+    display: inline-block;
+}
+
+.card h2 {
+    font-size: 30px;
+    line-height: 2;
+    margin: 0;
+    position: absolute;
+    /* kapsayıcısının konumundan sağından solundan vs merkezi alıp hareket ettiriyor */
+    left: 75px;
+    top: 170px;
+}
+
+.card img {
+    max-width: 100%;
+    position: relative;
+    /* relarive olduğu yerden hareket ettirıyor */
+    bottom: 15px;
+}
+
+.card h2:hover {
+    color: blue;
+    font-size: 38px;
+}
+
+.card:hover {
+    background-color: rgb(136, 130, 130);
+    box-shadow: 2px 2px rgba(0, 0, 1, 1)
+}
+
+.card p {
+    background-color: aqua;
+}
+
+.card p:first-of-type {
+    background-color: blanchedalmond;
+    /*  ilk olan paragrafın rengi için kullanılır */
+}
+
+.card p:last-of-type {
+    background-color: rgb(206, 134, 25);
+    /* son olan faragrafın rengi için kullanılır  */
+}
+
+.card p:nth-last-of-type(2) {
+    /* yazının rengi için kullanılır */
+    color: blue;
+}
+
+.card.is-online::before,
+.card:not(.is-online)::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(18, 241, 66, 0.877);
+    top: 20px;
+    left: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.card:not(.is-online)::before {
+    background-color: rgb(235, 11, 11)
+}
+
+.card::after {
+    content: "";
+    /* content kodun görünür kılınması için önemli */
+    height: 4px;
+    width: 250%;
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 805px;
+    right: 20px;
+    width: 200px
+}
