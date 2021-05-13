@@ -1,0 +1,14 @@
+* {
+    font-family: sans-serif;
+    background-color: rgb(56, 206, 19);
+    text-decoration: none;
+}
+
+.card {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 16px;
+    &-title: {
+        color: bisque
+    }
+}

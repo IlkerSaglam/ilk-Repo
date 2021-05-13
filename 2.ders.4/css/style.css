@@ -1,0 +1,12 @@
+* {
+  font-family: sans-serif;
+  background-color: #38ce13;
+  text-decoration: none;
+}
+
+.card {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 16px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+.card {
+    background-color: blue;
+    &-title {
+        background-color: pink;
+        font-size: 15px;
+        text-align: center;
+        color: black;
+        &--color {
+            color: rgb(216, 11, 11);
+        }
+    }
+    &-desc {
+        font-family: 'Goblin One', cursive;
+    }
+}

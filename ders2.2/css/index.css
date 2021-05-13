@@ -1,0 +1,52 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.list {
+    padding: 0px;
+    margin: 16px;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.list li {
+    border: 1px solid rgb(5, 5, 5);
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+
+.list img {
+    width: 90px;
+    height: 100px;
+    margin-right: 40px;
+    border-radius: 100%;
+}
+
+.list li:hover {
+    background-color: aqua;
+}
+
+.list li::before {
+    position: absolute;
+    border-radius: 100%;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    top: 85px;
+    left: 78px;
+}
+
+.list li.online::before {
+    content: "";
+}
