@@ -1,0 +1,72 @@
+:root {
+    --renk: #A3DC00
+}
+
+.headerbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    figure {
+        margin: 37px;
+        margin-left: 80px;
+    }
+    .barbuttons {
+        margin: 48px;
+        &-link {
+            margin: 15px;
+        }
+    }
+    .singbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 500px;
+        align-items: center;
+        .barlink {
+            margin: 35px;
+        }
+        .barlink2 {
+            border: 1px solid #A3DC00;
+            background-color: #A3DC00;
+            padding: 18px 31px;
+            border-radius: 6px;
+            text-decoration: none;
+            color: white
+        }
+    }
+}
+
+.info {
+    width: 350px;
+    margin: 0px 0px 0px 200px
+}
+
+.imginfo {
+    img {
+        width: 500px;
+    }
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    .buton {
+        color: var(--renk);
+        padding: 18px 31px;
+        background-color: #A3DC00;
+        color: white;
+        border-radius: 6px;
+        border-style: none;
+    }
+    .parag {
+        font-family: 'Roboto';
+        color: #9A9A9A;
+        text-shadow: 1px 1px 3px;
+    }
+    .h2 {
+        font-family: 'Farro' sans-serif;
+        font-weight: bold;
+        color: black
+    }
+}

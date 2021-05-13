@@ -1,1 +1,102 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+:root {
+  --renk: #A3DC00
+;
+}
+
+.headerbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.headerbar figure {
+  margin: 37px;
+  margin-left: 80px;
+}
+
+.headerbar .barbuttons {
+  margin: 48px;
+}
+
+.headerbar .barbuttons-link {
+  margin: 15px;
+}
+
+.headerbar .singbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 500px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerbar .singbar .barlink {
+  margin: 35px;
+}
+
+.headerbar .singbar .barlink2 {
+  border: 1px solid #A3DC00;
+  background-color: #A3DC00;
+  padding: 18px 31px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+}
+
+.info {
+  width: 350px;
+  margin: 0px 0px 0px 200px;
+}
+
+.imginfo img {
+  width: 500px;
+}
+
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog .buton {
+  color: var(--renk);
+  padding: 18px 31px;
+  background-color: #A3DC00;
+  color: white;
+  border-radius: 6px;
+  border-style: none;
+}
+
+.blog .parag {
+  font-family: 'Roboto';
+  color: #9A9A9A;
+  text-shadow: 1px 1px 3px;
+}
+
+.blog .h2 {
+  font-family: 'Farro' sans-serif;
+  font-weight: bold;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
